@@ -1,0 +1,262 @@
+.logo {
+    cursor: pointer;
+    transition: all 0.3s;
+  
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  
+  #nav {
+    padding: 10px 10px;
+  }
+  
+  .navbar {
+    background-color: #bdd2ff;
+  }
+  
+  /* ---------------------CAROUSEL-------------------------------------------------- */
+  
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  .carousel-item {
+    height: 32rem;
+  
+    > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 32rem;
+    }
+  }
+  
+  .video-carousel {
+    width: 100%;
+    min-height: 500px;
+  }
+  
+  /*-----------------------MARKETING CONTENIDO-------------------------------------------------- */
+  
+  .marketing {
+    .col-lg-4 {
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+  
+    h2 {
+      font-weight: 400;
+    }
+  
+    .featurette-divider {
+      margin: 5rem 0;
+    }
+  
+    .featurette-heading {
+      font-weight: 300;
+      line-height: 1;
+    }
+  
+    .botton-wtsp {
+      border-color: none;
+      border: none;
+      background: none;
+    }
+  }
+  
+  /*-----------------------RESPONSIVE CSS INDEX-------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    .carousel-caption {
+      p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+      }
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  
+  #footer {
+    height: 15rem;
+  
+    p {
+      font-size: 1.4rem;
+    }
+  }
+  
+  #redesFooter {
+    grid-column: 1/13;
+    text-align: center;
+  
+    a {
+      text-decoration: none;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+  
+  /* --------------------SOBRE NOSOTROS------------------------- */
+  
+  .nosotros-p {
+    font-size: 18px;
+    text-align: justify;
+  }
+  
+  .nosotros-h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 85px;
+  }
+  
+  .card-title {
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .card-text {
+    text-align: justify;
+  }
+  
+  .sobre-nosotros {
+    background-image: url(./img/nosotros.png);
+    margin: auto;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+  
+    @media (max-width: 768px) {
+      .nosotros-h1 {
+        font-size: 45px;
+      }
+  
+      .nosotros-p {
+        font-size: 14px;
+      }
+  
+      background-image: none;
+      padding: 1rem;
+      background-color: #bdd2ff;
+    }
+  
+    @media (min-width: 769px) {
+      .nosotros-h1 {
+        font-size: 36px;
+      }
+  
+      .nosotros-p {
+        font-size: 16px;
+      }
+    }
+  }
+  
+  /* -------------------CONTACTANOS---------------------------------- */
+  
+  #formulario {
+    background-image: url(./img/form.png);
+    background-repeat: no-repeat;
+  }
+  
+  .formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      font-size: 16px;
+    }
+  
+    button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  
+    @media (max-width: 600px) {
+      .formulario {
+        max-width: 90%;
+      }
+    }
+  }
+  
+  /*--------------------PRODUCTOS------------------------------------------ */
+  
+  .container {
+    max-width: 960px;
+  }
+  
+  .galleria-de-fotos {
+    cursor: pointer;
+    transition: all 0.3s;
+  
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  
+  .fondo-producto {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(./img/foto-fondo-productos.jpg);
+    background-repeat: no-repeat;
+  }
+  
+  .texto-producto {
+    color: #bdd2ff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }
+  
+  /*--------------------PRODUCTOS------------------------------------------ */
+  
+  .texto-promociones {
+    font-family: 'Dancing Script', cursive;
+    margin: 35px;
+  }
+  
+  .album {
+    background-color: #bdd2ff;
+  }
+  
